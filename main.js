@@ -33,6 +33,17 @@ for(let k=0; k<array2.length;k++){
    if( array2[k]===""){
        array2.splice(k,1)
    }
+   for(let j in tree){
+    if ( tree[j] ==="") {
+        tree[j]=array2[k]
+        break
+  }
+   }
+}
+}
+   myfun ([-1, 150, 190, 170, -1, -1, 160, 180])
+   myfun([-1,10,60,5,2,-1,7,-1,-1,6])
+
 
 
 

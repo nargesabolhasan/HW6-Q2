@@ -27,5 +27,12 @@ function Sorting(array2) {
           array2[i - 1] = array2[i];
           array2[i] = tmp;
         }
+    }
+}
+for(let k=0; k<array2.length;k++){
+   if( array2[k]===""){
+       array2.splice(k,1)
+   }
+
 
 
